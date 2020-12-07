@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.od.onedropapplication.retailer.entity.Retailer;
+import com.od.onedropapplication.entity.Retailer;
 import com.od.onedropapplication.retailer.service.RetailerRegistrationService;
 
 @RestController

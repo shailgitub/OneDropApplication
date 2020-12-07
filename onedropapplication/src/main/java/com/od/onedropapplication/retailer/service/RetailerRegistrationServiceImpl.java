@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.od.onedropapplication.retailer.entity.Retailer;
+import com.od.onedropapplication.entity.Retailer;
 import com.od.onedropapplication.retailer.repo.RetailerRegistrationRepo;
 
 @Service

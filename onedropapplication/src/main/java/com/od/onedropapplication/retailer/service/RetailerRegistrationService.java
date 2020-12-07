@@ -2,7 +2,7 @@ package com.od.onedropapplication.retailer.service;
 
 import java.util.List;
 
-import com.od.onedropapplication.retailer.entity.Retailer;
+import com.od.onedropapplication.entity.Retailer;
 
 public interface RetailerRegistrationService {
 

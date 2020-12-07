@@ -1,4 +1,4 @@
-package com.od.onedropapplication.retailer.entity;
+package com.od.onedropapplication.entity;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;

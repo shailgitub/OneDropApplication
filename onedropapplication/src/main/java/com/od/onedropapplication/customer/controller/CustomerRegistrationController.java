@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.od.onedropapplication.customer.entity.Customer;
-import com.od.onedropapplication.customer.entity.CustomerAddress;
 import com.od.onedropapplication.customer.service.CustomerRegistrationService;
+import com.od.onedropapplication.entity.Customer;
+import com.od.onedropapplication.entity.CustomerAddress;
 
 @RestController
 @RequestMapping("/custReg")

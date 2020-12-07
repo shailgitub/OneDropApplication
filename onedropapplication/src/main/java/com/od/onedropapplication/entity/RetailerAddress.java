@@ -1,4 +1,4 @@
-package com.od.onedropapplication.retailer.entity;
+package com.od.onedropapplication.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -11,7 +11,7 @@ import javax.persistence.Table;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 @Entity
-@Table(name = "rtl_address")
+@Table(name = "rtlAddress")
 @EntityListeners(AuditingEntityListener.class)
 public class RetailerAddress {
 	@Id

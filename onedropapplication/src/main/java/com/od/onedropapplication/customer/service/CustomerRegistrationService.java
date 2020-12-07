@@ -2,7 +2,7 @@ package com.od.onedropapplication.customer.service;
 
 import java.util.List;
 
-import com.od.onedropapplication.customer.entity.Customer;
+import com.od.onedropapplication.entity.Customer;
 
 public interface CustomerRegistrationService {
 	List<Customer> getCustomerListService();

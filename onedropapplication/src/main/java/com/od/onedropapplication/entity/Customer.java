@@ -1,4 +1,4 @@
-package com.od.onedropapplication.customer.entity;
+package com.od.onedropapplication.entity;
 
 import java.io.Serializable;
 

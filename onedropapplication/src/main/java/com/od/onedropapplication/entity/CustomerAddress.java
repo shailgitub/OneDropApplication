@@ -1,4 +1,4 @@
-package com.od.onedropapplication.customer.entity;
+package com.od.onedropapplication.entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EntityListeners;
@@ -10,7 +10,7 @@ import javax.persistence.Table;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 @Entity
-@Table(name = "cst_add")
+@Table(name = "cstAddTb")
 @EntityListeners(AuditingEntityListener.class)
 public class CustomerAddress {
 

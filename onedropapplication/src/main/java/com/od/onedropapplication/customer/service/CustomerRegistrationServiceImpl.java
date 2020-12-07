@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.od.onedropapplication.customer.entity.Customer;
 import com.od.onedropapplication.customer.repo.CustomerRegistrationRepo;
+import com.od.onedropapplication.entity.Customer;
 
 @Service
 public class CustomerRegistrationServiceImpl implements CustomerRegistrationService {
